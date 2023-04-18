@@ -30,6 +30,8 @@ jobs:
           - 8.2.3
           - 8.3.3
           - 8.4.3
+          - 8.7.0
+
 
     runs-on: ubuntu-latest
     container:
@@ -73,6 +75,7 @@ jobs:
           - 8.2.3
           - 8.3.3
           - 8.4.3
+          - 8.7.0
 
     runs-on: ubuntu-latest
     container: python:3.10-bullseye
